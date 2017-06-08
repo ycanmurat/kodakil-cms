@@ -1,0 +1,15 @@
+.env
+vendor/
+application/logs/*
+!application/logs/index.html
+application/cache/*
+!application/cache/index.html
+assets/uploads/
+cache/
+# Metronic is a commercial theme: drop your licensed copy here, only custom.css is versioned
+theme/*
+!theme/assets/
+theme/assets/*
+!theme/assets/css/
+theme/assets/css/*
+!theme/assets/css/custom.css
